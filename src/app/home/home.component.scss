@@ -55,11 +55,11 @@
     align-items: center;
     justify-content: center;
     background-color: #13151e;
-    margin-right: 8px;
+    margin-right: 9px;
     margin-left: 3px;
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
+    height: 40px;
+    width: 55px;
+    border-radius: 10px;
 }
 
 .unit:hover 
@@ -68,20 +68,14 @@
 }
 
 .unit p {
-    display: flex;
-    align-items: center;
     font-size: 20px;
-}
-
-.unit span {
-    display: flex;
-    font-size: 24px;
+    margin-left: 9px;
 }
 
 .mat-menu-deroulant
 {
-  background-color: #2C2F38 !important;
+  background-color: #25262d !important;
 }
 .mat-menu-custom-width:hover {
-  background-color: #3d414d !important;
+    background-color: #3b4049 !important;
 }

@@ -4,19 +4,19 @@
         <div class="input-wind-body">
             <input class="input-wind" type="text" placeholder="combien il y a-t-il de vent ?" value="">
             <div class="unit">
-                <button class="unit" mat-icon-button [matMenuTriggerFor]="menu">
+                <div class="unit" mat-icon-button [matMenuTriggerFor]="menu">
                     <p>nd</p>
                     <span class="material-symbols-outlined">arrow_drop_down</span>
-                </button>
+                </div>
                   <mat-menu class="mat-menu-deroulant" #menu="matMenu">
-                    <button mat-menu-item>
-                      <span>Redial</span>
+                    <button mat-menu-item class="mat-menu-custom-width" disabled>
+                      <span>nd</span>
                     </button>
-                    <button mat-menu-item disabled>
-                      <span>Check voicemail</span>
+                    <button mat-menu-item class="mat-menu-custom-width">
+                      <span>km/h</span>
                     </button>
-                    <button mat-menu-item>
-                      <span>Disable alerts</span>
+                    <button mat-menu-item class="mat-menu-custom-width">
+                      <span>m/s</span>
                     </button>
                   </mat-menu>
             </div>
