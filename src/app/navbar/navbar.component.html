@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<div class="container">
+    <div class="pc-menu">
+        <a class="navbar-title" href="/home">
+        <img class="logo" src="../../assets/img/logo_rounded.png" alt="Logo W Comme Wind">
+        <p class="title-text">W comme Wind</p>
+        </a>
+    </div>
+
+    <div class="mobile-menu">
+        <div class="header-mobile-menu">
+          <a class="navbar-title" href="/home">
+            <img class="logo" src="../../assets/img/logo_rounded.png" alt="Logo SpotiBlindTest">
+            <p class="title-text">W comme Wind</p>
+          </a>
+          <span  (click)="menuInteraction()" class="material-symbols-outlined">menu</span>
+        </div>
+      
+        <div class="content-mobile-menu" [ngStyle]="{'display': isOpen ? 'flex' : 'none'}">
+          <a class="nav-link active" aria-current="page" href="/home">BlindTest</a>
+          <a class="nav-link" href="/searchmusic">SearchMusic</a>
+        </div>
+      </div>
+  </div>

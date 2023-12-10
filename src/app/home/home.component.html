@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="title">Ya du vent ?</div>
+    <div class="input-wind-container">
+        <div class="input-wind-body">
+            <input class="input-wind" type="text" placeholder="combien il y a-t-il de vent ?" value="">
+            <div class="unit">
+                <button class="unit" mat-icon-button [matMenuTriggerFor]="menu">
+                    <p>nd</p>
+                    <span class="material-symbols-outlined">arrow_drop_down</span>
+                </button>
+                  <mat-menu class="mat-menu-deroulant" #menu="matMenu">
+                    <button mat-menu-item>
+                      <span>Redial</span>
+                    </button>
+                    <button mat-menu-item disabled>
+                      <span>Check voicemail</span>
+                    </button>
+                    <button mat-menu-item>
+                      <span>Disable alerts</span>
+                    </button>
+                  </mat-menu>
+            </div>
+        </div>
+    </div>
+</div>
